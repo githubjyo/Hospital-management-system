@@ -1,0 +1,86 @@
+/* HelpWidget.css */
+
+/* --- Gradient and Base Container Styling --- */
+.help-widget-container {
+   
+    background: linear-gradient(180deg, #c77de8 0%, #e83e8c 100%);
+    
+    color: white;
+    
+    width: 100%; 
+    
+    border-radius: 0; 
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+}
+
+/* --- Header Styling --- */
+.help-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.help-header .widget-title {
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.help-icon {
+    font-size: 1.25rem;
+    /* Vertically aligns icon with text */
+}
+
+/* Custom Separator Line */
+.header-separator {
+    border: 0;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.4);
+    /* Semi-transparent white line */
+    opacity: 1;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* --- Contact Info Styling --- */
+.contact-info {
+    font-size: 1rem;
+}
+
+.contact-item {
+    margin-bottom: 1rem;
+}
+
+.contact-item a {
+    color: #ffffff;
+   text-decoration: none;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.contact-item .fas {
+    font-size: 1.1rem;
+}
+
+/* --- Copyright Text --- */
+.copyright-text {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* --- Bottom Gradient Line (Aesthetic detail in screenshot) --- */
+.help-widget-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    /* Height of the pink band */
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Semi-transparent white/pink band */
+    /* You may need to fine-tune this for an exact match */
+}

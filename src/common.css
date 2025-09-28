@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5, h6, span, #sidebar {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* navbar bottom heading section */
+.main-heading{
+margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding: 5px 20px;
+    background: #666666;
+}
+.block-title{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    min-height: 1.75rem;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.75;
+    font-size: 22px;
+    color: #fff;
+    background: transparent;
+}
+.round-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* space between icon and text */
+  background-color: #e57498; /* pink background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px; /* makes it pill-shaped */
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+text-align-last: end;}
+
+.round-btn:hover {
+  background-color: #b24592; /* darker pink on hover */
+  text-decoration: none;
+  color: #fff;
+}
+
+.round-btn i {
+  font-size: 18px; /* adjust icon size */
+}
+
+/* dashboard background*/
+.dashboard-bg {
+  background: #eaf7f2;
+  min-height: 100vh;
+}

@@ -1,0 +1,166 @@
+/* PatientList.css */
+
+/* --- General Layout and Header --- */
+
+.patient-list-container {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.list-title {
+    color: #dc3545; /* Red color for "Add Patient" */
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* --- Top Controls (Show entries and Search) --- */
+
+.table-controls {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.entries-select {
+    width: 60px;
+    height: 30px;
+    padding: 2px 5px;
+}
+
+.search-input {
+    height: 30px;
+}
+
+/* --- Table Styling --- */
+
+.patient-table th {
+    /* Background and text color for the table header */
+    background-color: #f8f9fa; 
+    color: #333;
+    font-weight: 600;
+    cursor: pointer; /* Indicate sortability */
+    border-bottom: 1px solid #dee2e6;
+    /* 🔑 ADDED VERTICAL LINE TO HEADERS */
+    border-right: 1px solid #dee2e6;
+}
+
+/* 🔑 Remove border from the last header column */
+.patient-table th:last-child {
+    border-right: none;
+}
+
+.patient-table td {
+    border-bottom: 1px solid #e9ecef;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+    /* 🔑 ADDED VERTICAL LINE TO DATA CELLS */
+    border-right: 1px solid #e9ecef; 
+}
+
+/* 🔑 Remove border from the last data column */
+.patient-table td:last-child {
+    border-right: none;
+}
+
+.patient-table {
+    /* Ensures the table itself doesn't have an outer border box */
+    border: none;
+}
+
+/* Specific column width adjustments */
+.checkbox-col { width: 30px; }
+.age-col { width: 60px; }
+.phone-col { width: 120px; }
+
+/* --- Status Badges (Rest of the CSS remains the same) --- */
+
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    min-width: 80px;
+    text-align: center;
+}
+
+.status-completed {
+    background-color: #28a745;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.status-cancelled {
+    background-color: #dc3545;
+}
+
+/* --- Bottom Controls and Footer --- */
+
+.table-footer {
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.info-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Export Links */
+.export-link {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0;
+}
+.export-link:hover {
+    color: #000;
+}
+
+/* Pagination */
+.pagination-sm {
+    margin-bottom: 0;
+}
+
+.page-link-custom {
+    padding: 5px 12px;
+    font-size: 0.85rem;
+    min-width: 30px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+}
+
+.active-page {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+}
+
+/* Action Buttons (Delete/Edit) */
+.btn-delete {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+    padding: 6px 15px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.btn-edit {
+    background-color: #ffc0cb;
+    border-color: #ffc0cb;
+    color: #333;
+    padding: 6px 15px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}

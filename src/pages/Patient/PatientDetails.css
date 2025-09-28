@@ -1,0 +1,155 @@
+/* PatientDashboard.css */
+
+.dashboard-container {
+    background-color: #f8f9fa; /* Light background for the overall page */
+}
+
+/* --- Shared Card/Box Styling --- */
+
+.card-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    height: 100%; /* Important for equal height columns */
+}
+
+.card-title-custom {
+    color: #dc3545; /* Red color for "Add Patient" */
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* --- Patient Details Card (Left Side) --- */
+
+.details-card .detail-list {
+    font-size: 0.95rem;
+}
+
+.details-card .detail-item {
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+}
+
+.details-card .detail-label {
+    font-weight: 500;
+    color: #6c757d;
+}
+
+/* Action Buttons */
+.btn-edit-patient {
+    background-color: #28a745; /* Green */
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.btn-delete-patient {
+    background-color: #dc3545; /* Red */
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.btn-download {
+    background-color: #17a2b8; /* Cyan/Info */
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/* --- Table Styling (Visits and Transactions) --- */
+
+.data-table {
+    width: 100%;
+    margin-bottom: 0;
+    border-collapse: separate; /* Required for custom border styles */
+    border-spacing: 0;
+}
+
+.data-table th {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: 600;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6; /* Vertical line */
+}
+
+.data-table th:last-child {
+    border-right: none;
+}
+
+.data-table td {
+    padding: 10px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #e9ecef;
+    border-right: 1px solid #e9ecef; /* Vertical line */
+}
+
+.data-table td:last-child {
+    border-right: none;
+}
+
+/* In PatientDashboard.css */
+
+/* Invoice Button - Updated to match the light blue background and white text */
+.btn-invoice {
+    /* Light blue/cyan background color seen in the image */
+    background-color: #fff; 
+    /* White text color */
+    color: #89cff0; 
+    /* Light border, slightly darker than the background */
+    border: 1px solid #7cb9e8; 
+    padding: 3px 8px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    /* Small shadow effect often used on these buttons */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+/* Optional: Add a hover state for better UX */
+.btn-invoice:hover {
+    background-color: #7cb9e8;
+    color: #fff;
+    border-color: #7cb9e8;
+}
+
+/* --- Status Badges (Shared) --- */
+
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    min-width: 80px;
+    text-align: center;
+}
+
+.status-completed {
+    background-color: #28a745; /* Green */
+}
+
+.status-pending {
+    background-color: #ffc107; /* Orange/Yellow */
+    color: #333;
+}
+
+.status-cancelled {
+    background-color: #dc3545; /* Red */
+}
+
+/* --- Export Actions (Bottom Links) --- */
+
+.export-actions {
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.export-actions span {
+    cursor: pointer;
+}

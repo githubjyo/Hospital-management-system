@@ -1,0 +1,51 @@
+.navbar .btn {
+  border: none;
+  color: #555;
+}
+
+.navbar .btn:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+/* UserDropdown.css */
+
+/* --- Avatar Image Styling --- */
+.user-avatar {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures image covers the area without stretching */
+    border: 2px solid #fff; /* Optional: light border around the image */
+    transition: box-shadow 0.2s;
+}
+
+/* --- Toggle Button Styling --- */
+.user-image-btn {
+    padding: 0; /* Remove default button padding */
+    border: none;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.user-image-btn:focus,
+.user-image-btn:active {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25) !important; /* Blue glow on focus */
+}
+
+/* Hover effect on the image */
+.user-image-btn:hover .user-avatar {
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+/* --- Dropdown Menu Styling --- */
+.dropdown-menu {
+    min-width: 180px; /* Ensure menu is wide enough */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-header {
+    padding: 0.75rem 1rem 0.25rem;
+    font-size: 0.95rem;
+}
+

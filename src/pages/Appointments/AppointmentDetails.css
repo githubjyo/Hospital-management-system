@@ -1,0 +1,98 @@
+/* AppointmentDetails.css */
+
+.details-container {
+    background-color: #f8f9fa; /* Light background for the overall page */
+}
+
+/* --- Card/Box Styling --- */
+
+.card-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-title-pink {
+    /* Pink color matching the screenshot's title */
+    color: #f7a4b2; 
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 10px;
+}
+
+/* --- Details List Layout --- */
+
+.detail-list {
+    font-size: 0.95rem;
+}
+
+.detail-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.detail-label {
+    font-weight: 500;
+    color: #495057; /* Darker label color */
+}
+
+.detail-value {
+    color: #343a40; /* Value text color */
+}
+
+/* Specific styling for the problem description row to break lines correctly */
+.problem-text {
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+/* --- Export Actions (CSV, Print, etc.) --- */
+
+.export-actions {
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.export-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.export-link:hover {
+    color: #343a40;
+}
+
+/* --- Action Buttons --- */
+
+.action-buttons-row {
+    margin-top: 15px;
+}
+
+.btn-edit-appointment {
+    /* Green color for Edit Appointment */
+    background-color: #28a745; 
+    border-color: #28a745;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    font-weight: 500;
+}
+
+.btn-delete-appointment {
+    /* Pink/Red color for Delete Appointment */
+    background-color: #dc3545; 
+    border-color: #dc3545;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    font-weight: 500;
+}
+

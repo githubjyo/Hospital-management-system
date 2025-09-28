@@ -1,0 +1,84 @@
+{
+  "appointments": [
+    {
+      "id": "1",
+      "doctorId": 1,
+      "patientId": 1,
+      "date": "2025-09-25",
+      "startTime": "09:30",
+      "endTime": "10:00",
+      "status": "scheduled",
+      "notes": ""
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "role": "doctor",
+      "email": "asha@example.com",
+      "password": "doc123",
+      "doctorId": 1
+    },
+    {
+      "id": "2",
+      "role": "patient",
+      "email": "jyoti@example.com",
+      "password": "patient123",
+      "patientId": 1
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "name": "admin",
+      "role": "admin",
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin123"
+    },
+    {
+      "id": "c544",
+      "name": "Jyoti",
+      "email": "jyoti@gmail.com",
+      "username": "jyoti@gmail.com",
+      "password": "jyoti123",
+      "role": "admin"
+    },
+    {
+      "id": "6f57",
+      "name": "Amol",
+      "email": "amol@gmail.com",
+      "username": "amol@gmail.com",
+      "password": "amol123",
+      "role": "admin"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "docotor1",
+      "role": "doctor",
+      "username": "doctor1",
+      "email": "doctor1@example.com",
+      "password": "doctor1123"
+    },
+    {
+      "id": "36f6",
+      "name": "Kavita",
+      "email": "kavita@gmail.com",
+      "username": "kavita@gmail.com",
+      "password": "kavita123",
+      "role": "doctor"
+    }
+  ],
+  "patients": [
+    {
+      "id": "1",
+      "name": "patient",
+      "role": "patient",
+      "username": "patient",
+      "email": "patient1@example.com",
+      "password": "patient1123"
+    }
+  ]
+}

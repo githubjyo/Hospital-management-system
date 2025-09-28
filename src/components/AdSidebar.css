@@ -1,0 +1,75 @@
+#sidebar {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+.sidebar {
+  min-height: 100vh;
+  width: 260px;
+  transition: all 0.3s;
+  background: linear-gradient(to left, #E57498, #B24592);
+  color: white;
+   /* --- START: Flexbox changes to push footer down --- */
+  display: flex;
+  flex-direction: column;
+  /* Ensure content doesn't overflow sidebar height */
+  overflow-y: auto; 
+  /* --- END: Flexbox changes --- */
+}
+
+/* New rule for the menu list */
+.sidebar > ul {
+  /* This pushes the next element (the Footer) to the bottom */
+  flex-grow: 1; 
+  /* Ensures the list takes the remaining vertical space */
+}
+
+.sidebar.collapsed {
+  width: 80px;
+}
+
+.sidebar-header {
+  padding: 15px;
+}
+
+.collapsed-btn:hover {
+  background-color: #E57498;
+  color: white;
+}
+
+.sidebar-link {
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.active-menu .sidebar-link {
+  background: #ff9bb2; /* active parent background */
+  color: #fff;
+}
+
+/* Submenu */
+.submenu {
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  color:#fff;
+  display: block; 
+}
+
+.submenu:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.active-submenu {
+  background: #b24592; /* active submenu background */
+  color: #fff !important;
+}
+

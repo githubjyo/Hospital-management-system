@@ -1,0 +1,28 @@
+/* src/Style.css */
+
+/* ✅ Hero Section Styling */
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ✅ Dark Overlay on top of Image */
+.hero-overlay {
+  background-color: rgba(77, 142, 233, 0.5);
+  padding: 40px;
+  border-radius: 12px;
+  color: white;
+}
+
+/* ✅ Make Buttons Look Consistent */
+.hero-buttons .btn {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+}

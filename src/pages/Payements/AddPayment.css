@@ -1,0 +1,125 @@
+/* AddPaymentForm.css */
+
+/* Custom Variables to match the screenshot colors */
+:root {
+    --primary-blue: #007bff;
+    --success-green: #28a745;
+    --warning-yellow: #ffc107;
+    --light-gray-bg: #f8f9fa;
+    --border-color: #dee2e6;
+}
+
+/* Base Container and Form Styling */
+.add-payment-container {
+  padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+}
+
+.form-header {
+    color: #dc3545; /* Red color for "Add Patient" */
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    
+}
+
+.card{
+border: none;
+}
+
+/* Section Block Styling */
+.section-block {
+    padding: 0;
+}
+
+/* Styling for input labels to match the screenshot layout */
+.form-label {
+    color: #495057;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
+/* Custom styling for the read-only appearance of labels in the screenshot */
+.row > div > .form-label {
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #6c757d;
+}
+
+.form-control, .form-select {
+    font-size: 0.9rem;
+    height: calc(1.5em + 0.75rem + 2px); /* Standardize height */
+}
+
+
+/* Section Title Styles (e.g., 'Services', 'Payment') */
+.section-title {
+    background-color: var(--light-gray-bg);
+    color: #343a40;
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+    margin: 0 -1.5rem 1rem -1.5rem; /* Extend background across card width */
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.section-block:first-child .section-title {
+    border-top: none;
+}
+
+/* Custom Header row for Service section */
+.header-row .fw-bold {
+    color: #343a40;
+    font-weight: 500 !important;
+    padding-left: 0.75rem;
+}
+
+/* Add Service Button Styling */
+.add-service-btn {
+    background-color: var(--success-green);
+    border-color: var(--success-green);
+    font-weight: 500;
+}
+
+/* Submit Button Styling */
+.submit-btn {
+    background-color: #e83e8c; /* Custom pink color from screenshot */
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border: none;
+}
+
+.submit-btn:hover {
+    background-color: #d1307b;
+}
+
+/* Confirmation Checkbox Styling */
+.form-check-label {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Custom Alert Styling to match screenshot appearance */
+.custom-alert {
+    border-radius: 0.25rem;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+}

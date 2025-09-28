@@ -1,0 +1,118 @@
+/* AllotmentsList.css */
+
+/* --- Global & Layout --- */
+.allotments-list-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card {
+    border-radius: 8px;
+}
+
+/* Header Styling */
+.list-header {
+    color: #e83e8c; /* Matches the pink color in the screenshot */
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+/* --- Table Controls --- */
+.entries-select {
+    width: 60px;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.search-input {
+    width: 180px;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+    /* Custom search box border/color if needed */
+}
+
+/* --- Table Styling --- */
+.custom-allotment-table thead th {
+    font-weight: 500;
+    color: #343a40;
+    border-bottom: 2px solid #e9ecef;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.custom-allotment-table tbody td {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0.5rem 0.75rem;
+}
+
+.checkbox-col {
+    width: 30px;
+    text-align: center;
+}
+
+/* Status Badges */
+.badge-status {
+    padding: 0.4em 0.7em;
+    border-radius: 50rem;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: capitalize;
+}
+
+/* Custom Badge Colors to match screenshot */
+.bg-danger {
+    background-color: #dc3545 !important; /* Not Discharged */
+}
+.bg-success {
+    background-color: #28a745 !important; /* Available */
+}
+.bg-warning.text-dark {
+    background-color: #ffc107 !important; /* Not Alloted */
+}
+
+
+/* --- Footer and Pagination --- */
+.table-footer {
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+}
+
+.pagination-nav .page-item a {
+    font-size: 0.85rem;
+    min-width: 30px;
+    text-align: center;
+}
+
+/* --- Action Bar --- */
+.action-bar-bottom {
+    padding-top: 1rem;
+}
+
+.export-link {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #6c757d !important;
+}
+
+/* Action Buttons Custom Colors */
+.delete-btn {
+    background-color: #dc3545; /* Red/Pink color from screenshot */
+    border: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+}
+
+.edit-btn {
+    background-color: #e83e8c; /* Pink color for EDIT button */
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+}

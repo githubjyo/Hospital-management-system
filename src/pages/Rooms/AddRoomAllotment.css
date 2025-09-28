@@ -1,0 +1,85 @@
+/* AddRoomAllotment.css */
+
+/* Custom Variables */
+:root {
+    --primary-pink: #e83e8c; /* Matches the "Add Room Allotment" text */
+    --success-green: #28a745;
+    --warning-yellow: #ffc107;
+    --light-gray-bg: #f8f9fa;
+    --border-color: #dee2e6;
+}
+
+/* Base Container and Form Styling */
+.add-room-allotment-container {
+   padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.form-header {
+     color: #dc3545; /* Red color for "Add Patient" */
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+
+
+/* Label Styling */
+.form-label {
+    color: #495057;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
+.form-control, .form-select {
+    font-size: 0.9rem;
+    height: calc(1.5em + 0.75rem + 2px); /* Standardize height */
+}
+
+/* Input Group for Date Pickers */
+.input-group-text {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    color: #495057;
+}
+
+/* Confirmation Checkbox Styling */
+.form-check-label {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Submit Button Styling */
+.submit-btn {
+    background-color: var(--primary-pink); /* Matches screenshot button color */
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border: none;
+}
+
+.submit-btn:hover {
+    background-color: #d1307b; /* Slightly darker pink on hover */
+}
+
+/* Custom Alert Styling to match screenshot appearance */
+.custom-alert {
+    border-radius: 0.25rem;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+}

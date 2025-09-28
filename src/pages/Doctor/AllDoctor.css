@@ -1,0 +1,40 @@
+.doctors-list-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+    color: #dc3545; /* Red color for "Add Patient" */
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.doctor-table thead {
+  background: #f9f9f9;
+  font-weight: 600;
+}
+
+button.btn-danger {
+  background-color: #ff4d4d !important;
+  border: none;
+}
+
+button.btn-info {
+  background-color: #e57498 !important;
+  border: none;
+  color: white;
+}
+
+.export-options {
+  color: #e57498;
+  font-weight: 500;
+  cursor: pointer;
+}
+.export-options span:hover {
+  text-decoration: underline;
+}

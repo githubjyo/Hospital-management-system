@@ -1,0 +1,77 @@
+/* General container and card styling (similar to signin page) */
+.create-account-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  padding: 20px;
+}
+
+.create-account-card {
+  border-radius: 15px;
+  max-width: 900px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Right-side image section styling */
+.create-account-image-section {
+  background-color: #fdeedc;
+  border-radius: 0 15px 15px 0;
+}
+
+/* Custom button styles */
+.btn-create-account {
+  background: linear-gradient(to right, #8A63A5, #6C428E);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.btn-create-account:hover {
+  background: linear-gradient(to right, #7a5495, #5c357e);
+}
+
+.btn-social {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6c757d;
+}
+
+.btn-social:hover {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+}
+
+/* Form input styling */
+.form-control,
+.form-select {
+  border-radius: 8px;
+}
+
+/* Alert styles for error/success messages */
+.alert-danger, .alert-success {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .create-account-card {
+    border-radius: 15px;
+  }
+  .create-account-image-section {
+    display: none !important;
+  }
+}
